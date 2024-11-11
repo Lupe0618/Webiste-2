@@ -1,0 +1,132 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Colors */
+:root {
+    --navy: #2c3e50;
+    --gray: #bdc3c7;
+    --light-gray: #ecf0f1;
+    --white: #ffffff;
+    --accent-color: #3498db; /* Optional accent color for links or buttons */
+}
+
+/* Body and Font Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--light-gray);
+    color: var(--navy);
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--navy);
+    color: var(--white);
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+.hero button {
+    background-color: var(--accent-color);
+    color: var(--white);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.hero button:hover {
+    background-color: #2980b9;
+}
+
+/* Section Styling */
+section {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    color: var(--navy);
+    margin-bottom: 20px;
+}
+
+section p {
+    color: var(--gray);
+    margin-bottom: 20px;
+}
+
+/* Care Points, Lists, and Testimonial Styling */
+.care-points, .testimonial {
+    background-color: var(--white);
+    border: 1px solid var(--gray);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+/* Noises Section */
+.noises {
+    background-color: var(--gray);
+    color: var(--navy);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.noises h3 {
+    color: var(--white);
+}
+
+.noises p, .noises audio {
+    color: var(--navy);
+}
+
+/* Video Section */
+.video-section {
+    background-color: var(--light-gray);
+    padding: 20px;
+    text-align: center;
+}
+
+.video-section video {
+    max-width: 100%;
+    border: 5px solid var(--navy);
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: var(--navy);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: var(--gray);
+    font-size: 0.9em;
+}
+
+/* Optional Accent for Links or Buttons */
+a, button {
+    color: var(--accent-color);
+}
+
+a:hover, button:hover {
+    color: var(--navy);
+}
